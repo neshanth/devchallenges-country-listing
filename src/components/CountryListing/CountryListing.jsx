@@ -1,6 +1,10 @@
 import "./countrylisting.scss";
 import SearchIcon from "../../Icons/SearchIcon";
+import { useContext } from "react";
+import { AppContext } from "../../context/AppContext";
 const CountryListing = () => {
+  const value = useContext(AppContext);
+  console.log(value);
   return (
     <div className="country-listing">
       <div className="search-container">
