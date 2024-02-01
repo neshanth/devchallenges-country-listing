@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+.country-listing {
+  .search-container {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.875rem;
+    color: $grey;
+    justify-content: space-between;
+
+    .search-wrapper {
+      background-color: $dark-grey;
+      display: flex;
+      align-items: center;
+      font-size: 0.875rem;
+      padding: 0.5rem;
+      border-radius: 0.8rem;
+      width: 60%;
+      gap: 1rem;
+    }
+  }
+}
