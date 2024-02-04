@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+.search-container {
+  display: flex;
+  align-items: center;
+  color: $grey;
+  justify-content: space-between;
+
+  .search-wrapper {
+    background-color: $dark-grey;
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    width: 60%;
+    gap: 1rem;
+  }
+}
